@@ -10,8 +10,16 @@ This repository contains my first personal Machine Learning Projects. To view my
   <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Dog_Cat_classification/C1.jpg">
 </p>
 
+- **Fashion classification with fashion_mnnist datasets of Keras**: (Notebook link:  https://github.com/quangnhat185/Machine_learning_projects/blob/master/Fashion_classification/Fashion_classification.ipynb)
+
+<p align="center">
+  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Fashion_classification/F1.jpg">
+</p>
+
+
 - **Traffic classisfication with YOLOv3**: (Notebook link: https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_classification/Traffic_classification_YOLOv3.ipynb)
 
 <p align="center">
+  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_classification/T1.png">
   <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_classification/Vietnam_traffic.gif">
 </p>
