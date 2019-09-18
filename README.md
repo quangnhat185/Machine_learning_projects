@@ -9,6 +9,7 @@ This repository contains my first personal Machine Learning Projects. To view my
   <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Dog_Cat_classification/D1.jpg">
   <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Dog_Cat_classification/C1.jpg">
 </p>
+<br>
 
 - **Fashion classification with fashion_mnnist datasets of Keras**: (Notebook link:  https://github.com/quangnhat185/Machine_learning_projects/blob/master/Fashion_classification/Fashion_classification.ipynb)
   - Dataset: The fashion_mnist datasets of Keras contains of 60,000 examples and a test set of 10,000 examples
@@ -16,7 +17,7 @@ This repository contains my first personal Machine Learning Projects. To view my
 <p align="center">
   <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Fashion_classification/F1.jpg">
 </p>
-
+<br>
 
 - **Traffic classisfication with YOLOv3**: (Notebook link: https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_classification/Traffic_classification_YOLOv3.ipynb)
   - Dataset: COCO dataset is a large-scale object-detection dataset which contains of approximately 330K images. 
