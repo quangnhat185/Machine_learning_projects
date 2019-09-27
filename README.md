@@ -3,7 +3,7 @@ This repository contains my first personal Machine Learning Projects. To view my
 
 - **Dog and Cat classification project** (Notebook link: https://github.com/quangnhat185/Machine_learning_projects/blob/master/Dog_Cat_classification/Dog_Cat_classification.ipynb)  
   - Dataset: http://bit.ly/30k1jgs contains 25,000 images of dog and cat collected from Internet. 
-  - My model contains 3 Conv2d layers in the hidden layer and 2 dense layers for output. In total there are approximately 13 millions parameters. The accuracy of my model achieved was 87.8%.
+  - My model contains 3 Conv2d layers in the hidden layer and 2 dense layers for output. In total there are approximately 13 millions parameters. Eventually the accuracy of my model achieved was 87.8%.
   
 <p align="center">
   <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Dog_Cat_classification/Dog_cat_prediction.png">
