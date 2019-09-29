@@ -18,6 +18,14 @@ This repository contains my first personal Machine Learning Projects. To view my
 </p>
 <br>
 
+- [**Traffic signs classification with German Traffic Sign dataset on Kaggle**](https://github.com/quangnhat185/Machine_learning_projects/tree/master/Traffic_signs_classification):
+  - Dataset: The Kaggle German Traffic Sign dataset onsists of 40 classes and more than 50,000 images in total.
+  - The mode created in this project contains 478,763 parameter and was trained for 20 epochs. The final accuracy after testing with new test data is 96.8%
+<p align="center">
+  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_signs_classification/Traffic_sign_test.png">
+</p>
+<br>
+
 - [**Traffic classisfication with YOLOv3**](https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_classification/Traffic_classification_YOLOv3.ipynb):
   - Dataset: COCO dataset is a large-scale object-detection dataset which contains of approximately 330K images. 
   - In this project, I applied YOLOv3 algorithm on the dataset of COCO and pass an image and video through. The results can be seen as below figures: 
