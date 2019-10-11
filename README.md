@@ -10,7 +10,7 @@ This repository contains my first personal Machine Learning Projects. To view my
 </p>
 <br>
 
-- [**Fashion classification with fashion_mnnist datasets of Keras**](https://github.com/quangnhat185/Machine_learning_projects/blob/master/Fashion_classification/Fashion_classification.ipynb):
+- [**Fashion classification with fashion_mnnist datasets of Keras**](https://github.com/quangnhat185/Machine_learning_projects/tree/master/Fashion_classification):
   - Dataset: The fashion_mnist datasets of Keras contains of 60,000 examples and a test set of 10,000 examples
   - My model consists of 597,786 parameters and was trained for 10 epochs. The accuracy is nearly 95%
 <p align="center">
@@ -26,7 +26,7 @@ This repository contains my first personal Machine Learning Projects. To view my
 </p>
 <br>
 
-- [**Traffic classisfication with YOLOv3**](https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_classification/Traffic_classification_YOLOv3.ipynb):
+- [**Traffic classisfication with YOLOv3**](https://github.com/quangnhat185/Machine_learning_projects/tree/master/Traffic_classification_Yolov3):
   - Dataset: COCO dataset is a large-scale object-detection dataset which contains of approximately 330K images. 
   - In this project, I applied YOLOv3 algorithm on the dataset of COCO and pass an image and video through. The results can be seen as below figures: 
   
@@ -35,7 +35,7 @@ This repository contains my first personal Machine Learning Projects. To view my
   <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_classification_Yolov3/Vietnam_traffic.gif", width = "800">
 </p>
 
-- [**Gun detection with Yolov3**](https://github.com/quangnhat185/Machine_learning_projects/blob/master/Gun_detection_Yolov3/Gun_detection_YOLOv3.ipynb)
+- [**Gun detection with Yolov3**](https://github.com/quangnhat185/Machine_learning_projects/tree/master/Gun_detection_Yolov3)
   - [Dataset](http://www.mediafire.com/file/pvfircmboaelkxc/Gun_data_labeled.zip/file): 3k images of hand gun and their label annotation (bounding box cordination)
   - Model was trained on Colab with 900 epochs using Yolov3. 
   
