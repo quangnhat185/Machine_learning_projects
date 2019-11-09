@@ -12,3 +12,8 @@ Traffic_signs_classification/Train.tar
 Traffic_signs_classification/Train/
 Traffic_signs_classification/gtsrb-german-traffic-sign.zip
 Age_prediction/
+Car_brand_classification/.ipynb_checkpoints/
+Car_brand_classification/Car_brand_classification.zip
+Car_brand_classification/best_weights.h5
+Car_brand_classification/car_data/
+Car_brand_classification/colab.ipynb
