@@ -38,8 +38,8 @@ This repository contains my first personal Machine Learning Projects. To view my
   - In this project, I applied YOLOv3 algorithm on the dataset of COCO and pass an image and video through. The results can be seen as below figures:
 
 <p align="center">
-  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_classification_Yolov3/T1.png">
-  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_classification_Yolov3/Vietnam_traffic.gif", width = "800">
+  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Object_classification_Yolov3/T1.png">
+  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Object_classification_Yolov3/Vietnam_traffic.gif", width = "800">
 </p>
 <br>
 
