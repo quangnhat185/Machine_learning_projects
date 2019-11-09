@@ -1,5 +1,6 @@
+![img](accuracy.png)
+
 ![img](loss.png)
 
-![img](accuracy.png)
 
 ![img](prediction_result.png)
