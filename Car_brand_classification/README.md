@@ -1,4 +1,4 @@
-![img](accuracy.png)
+![img](accuracy_image.png)
 
 ![img](loss.png)
 
