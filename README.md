@@ -4,12 +4,12 @@ This repository contains my first personal Machine Learning Projects. To view my
 1. [Dog and cat classification (95% accuracy)](#dog-and-cat-classification)
 2. [Fashion classification with fashion_mnnist datasets from Keras (91% accuracy)](#Fashion-classification-with-fashion_mnnist-datasets-from-Keras)
 3. [Traffic signs classification with German Traffic Sign dataset on Kaggle (97% accuracy)](#Traffic-signs-classification-with-German-Traffic-Sign-dataset-on-Kaggle)
-4. [Object classisfication with YOLOv3](#Object-classisfication-with-YOLOv3)
+4. [Object classisfication with YOLOv3](#Object-classification-with-YOLOv3)
 5. [Gun detection with YOLOv3](#Gun-detection-with-YOLOv3)
 6. [Car brand classification with EfficientNet (70% accuracy)](#Car-brand-classification-with-EfficientNet)
 
 #### [Dog and Cat classification][1]:
-  - Dataset: http://bit.ly/30k1jgs contains 25,000 images of dog and cat collected from Internet.
+  - [Dataset](http://bit.ly/30k1jgs): this datset contains 25,000 images of dog and cat collected from Internet.
   - My customized model contains 12 layers had achieved accuracy 87.8%. Used transfer learning with pre-trained Resnet50, I have improved my model accuracy up to nearly 98%.
 
 <p align="center">
@@ -41,21 +41,31 @@ This repository contains my first personal Machine Learning Projects. To view my
   <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_classification_Yolov3/T1.png">
   <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_classification_Yolov3/Vietnam_traffic.gif", width = "800">
 </p>
+<br>
 
 #### [Gun detection with YOLOv3][5]:
   - [Dataset](http://www.mediafire.com/file/pvfircmboaelkxc/Gun_data_labeled.zip/file): 3k images of hand gun and their label annotation (bounding box coordination)
   - Model was trained on Colab with 900 epochs using Yolov3.
 
-  <p align="center">
+<p align="center">
   <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Gun_detection_Yolov3/gun_detection.png">
   <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Gun_detection_Yolov3/gun_detection.gif", width = "600">
 </p>
+<br>
 
 #### [Car brand classification with EfficientNet][6]
+- [Dataset](https://www.kaggle.com/jutrera/stanford-car-dataset-by-classes-folder): Stanford car dataset which contains of 16k images from 196 classes of car brands
+- Model was trained with fine-tune pre-trained EfficientNet and acquire the accuracy of 73%.
+
+<p align="center">
+  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Car_brand_classification/prediction_result.png">
+</p>
+<br>
+
 
 [1]:https://github.com/quangnhat185/Machine_learning_projects/tree/master/Dog_Cat_classification
 [2]:https://github.com/quangnhat185/Machine_learning_projects/tree/master/Fashion_classification
 [3]:https://github.com/quangnhat185/Machine_learning_projects/tree/master/Traffic_signs_classification
 [4]:https://github.com/quangnhat185/Machine_learning_projects/tree/master/Traffic_classification_Yolov3
 [5]:https://github.com/quangnhat185/Machine_learning_projects/tree/master/Gun_detection_Yolov3
-[6]: 
+[6]: https://github.com/quangnhat185/Machine_learning_projects/tree/master/Car_brand_classification
