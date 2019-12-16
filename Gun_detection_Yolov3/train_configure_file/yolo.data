@@ -2,4 +2,4 @@ classes= 1
 train  = data/train.txt
 valid  = data/val.txt
 names = data/yolo.names
-backup = /content/drive/My Drive/YOLOv3_weight
+backup = backup

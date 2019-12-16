@@ -1,4 +1,6 @@
 Gun_detection_Yolov3/.ipynb_checkpoints/Colab_Yolov3_train-checkpoint.ipynb
+Gun_detection_Yolov3/.ipynb_checkpoints/Colab_train_yolov3-checkpoint.ipynb
+Gun_detection_Yolov3/No_use/
 Gun_detection_Yolov3/gun_detection.mp4
 Gun_detection_Yolov3/yolov3_custom.weights
 Traffic_signs_classification/.ipynb_checkpoints/
@@ -17,3 +19,6 @@ Car_brand_classification/Car_brand_classification.zip
 Car_brand_classification/best_weights.h5
 Car_brand_classification/car_data/
 Car_brand_classification/colab.ipynb
+License_Plate_Detection_and_Recognition/.ipynb_checkpoints/Plate_character_recognition_SVC-checkpoint.ipynb
+
+	
