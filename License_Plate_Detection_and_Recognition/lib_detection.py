@@ -129,7 +129,7 @@ def normal(pts, side, mn, MN):
     pts_prop = pts_MN / MN.reshape((2, 1))
     return pts_prop
 
-# Hàm tái tạo từ predict value thành biến số, cắt từ ảnh chính ra biển số,  nhãn...
+# Reconstruction function from predict value into plate crpoped from image
 def reconstruct(I, Iresized, Yr, lp_threshold):
     # 4 max-pooling layers, stride = 2
     net_stride = 2**4
@@ -181,7 +181,7 @@ def reconstruct(I, Iresized, Yr, lp_threshold):
     final_labels = nms(labels, 0.1)
     final_labels_frontal = nms(labels_frontal, 0.1)
 
-    print(final_labels_frontal)
+    #print(final_labels_frontal)
 
     # LP size and type
     out_size, lp_type = (two_lines, 2) if ((final_labels_frontal[0].wh()[0] / final_labels_frontal[0].wh()[1]) < 1.7) else (one_line, 1)
@@ -196,7 +196,7 @@ def reconstruct(I, Iresized, Yr, lp_threshold):
 
             Ilp = cv2.warpPerspective(I, H, out_size, borderValue=0)
             TLp.append(Ilp)
-    print(final_labels)
+    #print(final_labels)
     return final_labels, TLp, lp_type
 
 def detect_lp(model, I, max_dim, lp_threshold):
