@@ -13,7 +13,7 @@ This repository contains my first personal Machine Learning Projects. To view my
   - My customized model contains 12 layers had achieved accuracy 87.8%. Used transfer learning with pre-trained Resnet50, I have improved my model accuracy up to nearly 98%.
 
 <p align="center">
-  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Dog_Cat_classification/Dog_cat_prediction.png">
+  <img src="./Dog_Cat_classification/Dog_cat_prediction.png">
 </p>
 <br>
 
@@ -21,7 +21,7 @@ This repository contains my first personal Machine Learning Projects. To view my
   - Dataset: The fashion_mnist datasets of Keras contains of 60,000 examples and a test set of 10,000 examples
   - My model consists of 597,786 parameters and was trained for 10 epochs. The accuracy is nearly 95%
 <p align="center">
-  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Fashion_classification/F1.jpg">
+  <img src="./Fashion_classification/F1.jpg">
 </p>
 <br>
 
@@ -29,7 +29,7 @@ This repository contains my first personal Machine Learning Projects. To view my
   - Dataset: The Kaggle German Traffic Sign dataset consists of 40 classes and more than 50,000 images in total.
   - The mode created in this project contains 478,763 parameter and was trained for 20 epochs. The final accuracy after testing with new test data is 96.8%
 <p align="center">
-  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Traffic_signs_classification/Traffic_sign_test.png">
+  <img src="./Traffic_signs_classification/Traffic_sign_test.png">
 </p>
 <br>
 
@@ -38,8 +38,8 @@ This repository contains my first personal Machine Learning Projects. To view my
   - In this project, I applied YOLOv3 algorithm on the dataset of COCO and pass an image and video through. The results can be seen as below figures:
 
 <p align="center">
-  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Object_classification_Yolov3/T1.png">
-  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Object_classification_Yolov3/Vietnam_traffic.gif", width = "800">
+  <img src="./Object_classification_Yolov3/T1.png">
+  <img src="./Object_classification_Yolov3/Vietnam_traffic.gif", width = "800">
 </p>
 <br>
 
@@ -48,8 +48,8 @@ This repository contains my first personal Machine Learning Projects. To view my
   - Model was trained on Colab with 900 epochs using Yolov3.
 
 <p align="center">
-  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Gun_detection_Yolov3/gun_detection.png">
-  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Gun_detection_Yolov3/gun_detection.gif", width = "600">
+  <img src="./Gun_detection_Yolov3/gun_detection.png">
+  <img src="./Gun_detection_Yolov3/gun_detection.gif", width = "600">
 </p>
 <br>
 
@@ -58,14 +58,24 @@ This repository contains my first personal Machine Learning Projects. To view my
 - Model was trained with fine-tune pre-trained EfficientNet and acquire the accuracy of 73%.
 
 <p align="center">
-  <img src="https://github.com/quangnhat185/Machine_learning_projects/blob/master/Car_brand_classification/prediction_result.png">
+  <img src="./Car_brand_classification/prediction_result.png">
 </p>
 <br>
 
+#### [License_Plate_Detection_and_Recognition][7]:
+- In this project, I created a pipeline that detect and read car license plate in Europe. The piple contains three main statges:
+  1. Detect lincense plate from a rear car image using WPOD model.
+  1. Grab contour area of each digit using OpenCV
+  1. Predict the extracted contour area with SVM model.
 
-[1]:https://github.com/quangnhat185/Machine_learning_projects/tree/master/Dog_Cat_classification
-[2]:https://github.com/quangnhat185/Machine_learning_projects/tree/master/Fashion_classification
-[3]:https://github.com/quangnhat185/Machine_learning_projects/tree/master/Traffic_signs_classification
-[4]:https://github.com/quangnhat185/Machine_learning_projects/tree/master/Traffic_classification_Yolov3
-[5]:https://github.com/quangnhat185/Machine_learning_projects/tree/master/Gun_detection_Yolov3
-[6]: https://github.com/quangnhat185/Machine_learning_projects/tree/master/Car_brand_classification
+  <p align="center">
+  <img src="./License_Plate_Detection_and_Recognition/final_result.jpg", width= 700>
+  </p>
+
+[1]:./Dog_Cat_classification)
+[2]:./Fashion_classification
+[3]:./Traffic_signs_classification
+[4]:./Traffic_classification_Yolov3
+[5]:./Gun_detection_Yolov3
+[6]:./Car_brand_classification
+[7]:./License_Plate_Detection_and_Recognition
