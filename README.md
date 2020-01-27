@@ -72,10 +72,10 @@ This repository contains my first personal Machine Learning Projects. To view my
   <img src="./License_Plate_Detection_and_Recognition/final_result.jpg", width= 700>
   </p>
 
-[1]:./Dog_Cat_classification)
-[2]:./Fashion_classification
-[3]:./Traffic_signs_classification
-[4]:./Traffic_classification_Yolov3
-[5]:./Gun_detection_Yolov3
-[6]:./Car_brand_classification
-[7]:./License_Plate_Detection_and_Recognition
+[1]:(./Dog_Cat_classification)
+[2]:(./Fashion_classification)
+[3]:(./Traffic_signs_classification)
+[4]:(./Traffic_classification_Yolov3)
+[5]:(./Gun_detection_Yolov3)
+[6]:(./Car_brand_classification)
+[7]:(./License_Plate_Detection_and_Recognition)
