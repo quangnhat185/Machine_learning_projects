@@ -3,7 +3,13 @@ from os.path import splitext
 import cv2
 import numpy as np
 from keras.models import model_from_json
+import logging
 
+logging.basicConfig(filename='log_file.txt',
+                            filemode='a',
+                            format='%(asctime)s,%(msecs)d %(name)s %(message)s',
+                            datefmt='%H:%M:%S',
+                            level=logging.DEBUG)
 
 class Label:
     def __init__(self, cl=-1, tl=np.array([0., 0.]), br=np.array([0., 0.]), prob=None):
@@ -61,7 +67,7 @@ class DLabel(Label):
         br = np.amax(pts, axis=1)
         Label.__init__(self, cl, tl, br, prob)
 
-# Hàm normalize ảnh
+# image processing
 def im2single(Image):
     return Image.astype('float32') / 255
 
@@ -177,7 +183,7 @@ def reconstruct(I, Iresized, Yr, lp_threshold):
 
         labels.append(DLabel(0, pts_prop, prob))
         labels_frontal.append(DLabel(0, frontal, prob))
-
+        
     final_labels = nms(labels, 0.1)
     final_labels_frontal = nms(labels_frontal, 0.1)
 
@@ -193,10 +199,8 @@ def reconstruct(I, Iresized, Yr, lp_threshold):
             t_ptsh = getRectPts(0, 0, out_size[0], out_size[1])
             ptsh = np.concatenate((label.pts * getWH(I.shape).reshape((2, 1)), np.ones((1, 4))))
             H = find_T_matrix(ptsh, t_ptsh)
-
             Ilp = cv2.warpPerspective(I, H, out_size, borderValue=0)
             TLp.append(Ilp)
-    #print(final_labels)
     return final_labels, TLp, lp_type
 
 def detect_lp(model, I, max_dim, lp_threshold):
@@ -208,7 +212,6 @@ def detect_lp(model, I, max_dim, lp_threshold):
     T = T.reshape((1, T.shape[0], T.shape[1], T.shape[2]))
     Yr = model.predict(T)
     Yr = np.squeeze(Yr)
-    print(Yr.shape)
+    #print(Yr.shape)
     L, TLp, lp_type = reconstruct(I, Iresized, Yr, lp_threshold)
-
     return L, TLp, lp_type

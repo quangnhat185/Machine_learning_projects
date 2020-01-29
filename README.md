@@ -64,13 +64,15 @@ This repository contains my first personal Machine Learning Projects. To view my
 
 #### [License_Plate_Detection_and_Recognition][7]:
 - In this project, I created a pipeline that detect and read car license plate in Europe. The piple contains three main statges:
-  1. Detect lincense plate from a rear car image using WPOD model.
-  1. Grab contour area of each digit using OpenCV
-  1. Predict the extracted contour area with SVM model.
+1. Detect and crop the region of License Plate from rear care image using WPOD model
 
-  <p align="center">
-  <img src="./License_Plate_Detection_and_Recognition/final_result.jpg", width= 700>
-  </p>
+1. Using common OpenCV techniques such as blur, threshold, findContour to crop all Plate's digits
+
+1. Using a Nvidia model which was trained to recognize plate digits. 
+
+<p align="center">
+<img src="./License_Plate_Detection_and_Recognition/final_result.jpg", width= 700>
+</p>
 
 [1]:/Dog_Cat_classification
 [2]:/Fashion_classification
