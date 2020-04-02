@@ -7,6 +7,7 @@ This repository contains my first personal Machine Learning Projects. To view my
 4. [Object classisfication with YOLOv3](#Object-classification-with-YOLOv3)
 5. [Gun detection with YOLOv3](#Gun-detection-with-YOLOv3)
 6. [Car brand classification with EfficientNet (70% accuracy)](#Car-brand-classification-with-EfficientNet)
+7. [Detect COVID-19 from X-ray images](#Detect-COVID-19-from-X-ray-images)
 
 #### [Dog and Cat classification][1]:
   - [Dataset](http://bit.ly/30k1jgs): this datset contains 25,000 images of dog and cat collected from Internet.
@@ -73,6 +74,22 @@ This repository contains my first personal Machine Learning Projects. To view my
 <p align="center">
 <img src="./License_Plate_Detection_and_Recognition/final_result.jpg", width= 700>
 </p>
+<br>
+
+#### [Detect COVID-19 from X-ray images][8]
+The dataset of this project is share by **Dr. Joseph Pau Cohen** from University of Montreal in an attempt to predict and understand the infection. His repository where I downloaded the dataset can be found [here](https://github.com/ieee8023/covid-chestxray-dataset).
+
+Below are some key points regarding this project:
+
+  1. The model was train in the dataset of 25 X-ray images of. Covid patients and 25 X-ray images of normal patients.
+  1. The model uses Resnet50 as transfer learning model.
+  1. The accuracy of this model is 90%.
+  1. The result are for reference only.
+
+<p align="center">
+  <img src="./Detect_COVID-19_in_X-ray/covid_prediction.png">
+</p>
+<br>
 
 [1]:/Dog_Cat_classification
 [2]:/Fashion_classification
@@ -81,3 +98,4 @@ This repository contains my first personal Machine Learning Projects. To view my
 [5]:/Gun_detection_Yolov3
 [6]:/Car_brand_classification
 [7]:/License_Plate_Detection_and_Recognition
+[8]:/Detect_COVID-19_in_X-ray
