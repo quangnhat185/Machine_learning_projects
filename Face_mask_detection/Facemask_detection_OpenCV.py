@@ -97,7 +97,7 @@ ratio = frame.shape[1]/frame.shape[0]
 time.sleep(1.0)
 
 # configure video recording
-#writer = cv2.VideoWriter("videoname.mp4",cv2.VideoWriter_fourcc(*'DIVX'),24,(1024, int(1024/ratio)))
+#writer = cv2.VideoWriter("processed_video.mp4",cv2.VideoWriter_fourcc(*'DIVX'),24,(1024, int(1024/ratio)))
 while True:
     
     _, frame = cap.read()
