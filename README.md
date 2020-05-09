@@ -99,7 +99,7 @@ In this project, I have conducted several methods as below:
   - Train a model to classifiy "No mask" and "Mask" status with MobileNets. Accuracy > 98%
   - Use pre-train Face detection model to catch faces
 
-<p align="center"><img src="./Face_mask_detection/facemask_detection_result.gif"></p>
+<p align="center"><img src="./Face_mask_detection/facemask_detection_result.gif" width=720></p>
 <br>
 
 [1]:/Dog_Cat_classification
