@@ -2,12 +2,15 @@
 This repository contains my projects relating to Machine Learning. To view my notebook directly from Github, you can use [nbviewer](https://nbviewer.jupyter.org/). Belows are brief description and demonstration of my projects:
 
 1. [Dog and cat classification (95% accuracy)](#dog-and-cat-classification)
-2. [Fashion classification with fashion_mnnist datasets from Keras (91% accuracy)](#Fashion-classification-with-fashion_mnnist-datasets-from-Keras)
-3. [Traffic signs classification with German Traffic Sign dataset on Kaggle (97% accuracy)](#Traffic-signs-classification-with-German-Traffic-Sign-dataset-on-Kaggle)
-4. [Object classisfication with YOLOv3](#Object-classification-with-YOLOv3)
-5. [Gun detection with YOLOv3](#Gun-detection-with-YOLOv3)
-6. [Car brand classification with EfficientNet (70% accuracy)](#Car-brand-classification-with-EfficientNet)
-7. [Detect COVID-19 from X-ray images](#Detect-COVID-19-from-X-ray-images)
+1. [Fashion classification with fashion_mnnist datasets from Keras (91% accuracy)](#Fashion-classification-with-fashion_mnnist-datasets-from-Keras)
+1. [Traffic signs classification with German Traffic Sign dataset on Kaggle (97% accuracy)](#Traffic-signs-classification-with-German-Traffic-Sign-dataset-on-Kaggle)
+1. [Object classisfication with YOLOv3](#Object-classification-with-YOLOv3)
+1. [Gun detection with YOLOv3](#Gun-detection-with-YOLOv3)
+1. [Car brand classification with EfficientNet (70% accuracy)](#Car-brand-classification-with-EfficientNet)
+1. [License Plate Detection and Recognition](#License-Plate-Detection-and-Recognition)
+1. [Detect COVID-19 from X-ray images](#Detect-COVID-19-from-X-ray-images)
+1. [Facemask detection with Deeplearning and OpenCV](#Facemask-detection-with-Deeplearning-and-OpenCV)
+
 
 ### [Dog and Cat classification][1]:
   - [Dataset](http://bit.ly/30k1jgs): this datset contains 25,000 images of dog and cat collected from Internet.
@@ -63,7 +66,7 @@ This repository contains my projects relating to Machine Learning. To view my no
 </p>
 <br>
 
-### [License_Plate_Detection_and_Recognition][7]:
+### [License Plate Detection and Recognition][7]:
 - In this project, I created a pipeline that detect and read car license plate in Europe. The piple contains three main statges:
 1. Detect and crop the region of License Plate from rear care image using WPOD model
 
@@ -91,6 +94,14 @@ Below are some key points regarding this project:
 </p>
 <br>
 
+### [Facemask detection with Deeplearning and OpenCV][9]
+In this project, I have conducted several methods as below:
+  - Train a model to classifiy "No mask" and "Mask" status with MobileNets. Accuracy > 98%
+  - Use pre-train Face detection model to catch faces
+
+<p align="center"><img src="./Face_mask_detection/facemask_detection_result.gif"></p>
+<br>
+
 [1]:/Dog_Cat_classification
 [2]:/Fashion_classification
 [3]:/Traffic_signs_classification
@@ -99,3 +110,4 @@ Below are some key points regarding this project:
 [6]:/Car_brand_classification
 [7]:/License_Plate_Detection_and_Recognition
 [8]:/Detect_COVID-19_in_X-ray
+[9]:/Face_mask_detection
