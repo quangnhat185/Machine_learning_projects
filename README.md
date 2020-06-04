@@ -36,7 +36,7 @@ In this project, I have conducted several methods as below:
 - I used pre-trained weight on _imagenet_ dataset of __Resnet50__ architecture to extract training features. Later __LSTM__ and __Reset50__ are combined as one deep CNN to train this caption generator model.
 - The dataset used for this dataset can be downloaded from [Kaggle](https://www.kaggle.com/hsankesara/flickr-image-dataset).
 
-<p align="cent"><img src="Image_captioning/final_result.jpg" width = 720></p>
+<p align="center"><img src="Image_captioning/final_result.jpg" width = 720></p>
 
 ### [License Plate Detection and Recognition][7]:
 - In this project, I created a pipeline that detect and read car license plate in Europe. The piple contains three main statges:
