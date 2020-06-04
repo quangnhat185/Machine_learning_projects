@@ -1,8 +1,8 @@
 ## Image caption generator 
 
-The idea of this project is to create a Deep Learning model that deliver textual desciptions to given photographs. This is such an interesting project cause it combines the knowledge of two aspect: __Computer Vision__ and __Natural Langue Processing__. 
-
- The dataset used for this dataset can be downloaded from [Kaggle](https://www.kaggle.com/hsankesara/flickr-image-dataset).
+- The idea of this project is to create a Deep Learning model that deliver textual description from given photographs. Thus a combination of different techniques from both __Computer Vision__ and __Natural Langue Processing__ are conducted. 
+- I used pre-trained weight on _imagenet_ dataset of __Resnet50__ architecture to extract training features. Later __LSTM__ and __Reset50__ are combined as one deep CNN to train this caption generator model.
+- The dataset used for this dataset can be downloaded from [Kaggle](https://www.kaggle.com/hsankesara/flickr-image-dataset).
 
 ## Before running this project
 

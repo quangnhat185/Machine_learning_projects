@@ -15,11 +15,6 @@ from keras.models import Model
 from keras.preprocessing.image import img_to_array, load_img
 
 
-# save model architectur as json file
-def save_model_json(model):
-    model_json = model.to_json()
-    with open("ResNet50_feature_extraction.json", "w") as json_file:
-      json_file.write(model_json)
 
 # extract features from each photo in the directory
 def extract_features(directory):
@@ -31,7 +26,7 @@ def extract_features(directory):
     # sumarize
     print(model.summary())
       
-    # save weight 
+    # save model 
     model.save("ResNet50_feature_extraction.h5")
     # extract features from each photo
     features = dict()
