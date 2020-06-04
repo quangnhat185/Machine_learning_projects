@@ -32,5 +32,9 @@ Face_mask_detection/dataset
 Gun_detection_Yolov3/yolov3_custom_train_900.weights 
 License_Plate_Detection_and_Recognition/dataset_characters.zip
 Gun_detection_Yolov3/.ipynb_checkpoints/Yolov3_Gun_Detection-checkpoint.ipynb
-Image Captioning/Flickr8k_text
-Image Captioning/Flickr8k_Dataset
+Image_captioning/.ipynb_checkpoints/
+Image_captioning/Flickr8k_Dataset/
+Image_captioning/Flickr8k_text/
+Image_captioning/__pycache__/
+Image_captioning/image_captioning_model.h5
+Image_captioning/preprocess/ResNet50_feature_extraction.h5
