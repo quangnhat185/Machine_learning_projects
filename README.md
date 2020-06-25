@@ -9,6 +9,7 @@ This repository contains my projects relating to Machine Learning. To view my no
 1. [Object classisfication with YOLOv3](#Object-classification-with-YOLOv3)
 1. [Detect COVID-19 from X-ray images](#Detect-COVID-19-from-X-ray-images)
 1. [Traffic signs classification with German Traffic Sign dataset on Kaggle (97% accuracy)](#Traffic-signs-classification-with-German-Traffic-Sign-dataset-on-Kaggle)
+1. [Age prediction](#Age-prediction)
 1. [Dog and cat classification (95% accuracy)](#dog-and-cat-classification)
 1. [Fashion classification with fashion_mnnist datasets from Keras (91% accuracy)](#Fashion-classification-with-fashion_mnnist-datasets-from-Keras)
 
@@ -94,6 +95,23 @@ Below are some key points regarding this project:
 </p>
 <br>
 
+## [Age prediction][11]:
+- In this project, I trained my a Age classifier with [EfficientNet](https://arxiv.org/abs/1905.11946) which was claimed to achiever better accuracy than than previous ConvNets. I applied transfer learning with __imagenet__ pre-trained weight and add custom layer. During training, I noticed a significant over-fitting trend, thus I added more _Dropout layer_ and apply _several data augmentation techniques_.
+
+- I have created my own dataset consist of 51048 images divided among 9 age groups. However during training process, I realize my dataset is not a good training source since it didn't distributed evenly among age groups. In particularly, my classifier is bias toward the age group of 33-45 and 60 above.
+
+- I also realized a noticeable pattern which can be related to humans' common sens in age classifying. My classifier considers features such as lighter skin, no beard, black hair, etc as indications for younger age while features such as wrinkles, white hair and beards, etc usually return older age-group results. 
+
+- After long hours of training and tuning, I can only manage to achieve maximum 50% accuracy on my validation set, which is not a good result. I also tried with other popular networks as MobileNets, VGG16, ResNet50, Xcepticon but the accuracy were much worse than EfficientNet.
+
+- My dataset can be downloaded from [here](https://drive.google.com/file/d/1q5LROuIN596pdMY3lMRULnM6PENPurou/view?usp=sharing).
+
+<p align="center">
+  <img src="./Age_prediction/age_predict_result.jpg" width=720>
+</p>
+<br>
+
+
 ### [Dog and Cat classification][1]:
   - [Dataset](http://bit.ly/30k1jgs): this datset contains 25,000 images of dog and cat collected from Internet.
   - My customized model contains 12 layers had achieved accuracy 87.8%. Used transfer learning with pre-trained Resnet50, I have improved my model accuracy up to nearly 98%.
@@ -112,7 +130,6 @@ Below are some key points regarding this project:
 <br>
 
 
-
 [1]:/Dog_Cat_classification
 [2]:/Fashion_classification
 [3]:/Traffic_signs_classification
@@ -123,3 +140,4 @@ Below are some key points regarding this project:
 [8]:/Detect_COVID-19_in_X-ray
 [9]:/Face_mask_detection
 [10]:/Image_captioning
+[11]:/Age_prediction
