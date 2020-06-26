@@ -106,8 +106,9 @@ Below are some key points regarding this project:
 
 - My dataset can be downloaded from [here](https://drive.google.com/file/d/1q5LROuIN596pdMY3lMRULnM6PENPurou/view?usp=sharing).
 
+<br>
 <p align="center">
-  <img src="./Age_prediction/age_predict_result.jpg" width=720>
+  <img src="./Age_prediction/test_video_result.gif" width=720>
 </p>
 <br>
 

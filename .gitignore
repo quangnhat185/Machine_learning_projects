@@ -44,3 +44,5 @@ Age_prediction/Data/Age_prediction/.ipynb_checkpoints/
 Age_prediction/models/age_prediction_efficientnet.h5
 Age_prediction/.ipynb_checkpoints/
 Age_prediction/Data/
+Age_prediction/model/age_prediction_efficientnet.h5
+Age_prediction/model/age_prediction_efficientnet.json

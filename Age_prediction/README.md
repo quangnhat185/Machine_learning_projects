@@ -14,3 +14,8 @@
   <img src="./age_predict_result.jpg" width=720>
 </p>
 <br>
+
+<p align="center">
+  <img src="./test_video_result.gif" width=720>
+</p>
+<br>
