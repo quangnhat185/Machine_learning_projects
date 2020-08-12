@@ -2,6 +2,7 @@
 This repository contains my projects relating to Machine Learning. To view my notebook directly from Github, you can use [nbviewer](https://nbviewer.jupyter.org/). Belows are brief description and demonstration of my projects:
 
 1. [Facemask detection with Deeplearning and OpenCV](#Facemask-detection-with-Deeplearning-and-OpenCV)
+1. [Traffic signs detection with YOLOv4](#Traffic-signs-detection-with-YOLOv4)
 1. [Gun detection with YOLOv3](#Gun-detection-with-YOLOv3)
 1. [Image caption generator](#Image-caption-generator)
 1. [License Plate Detection and Recognition](#License-Plate-Detection-and-Recognition)
@@ -22,6 +23,12 @@ In this project, I have conducted several methods as below:
   - Use pre-train Face detection model to catch faces
 
 <p align="center"><img src="./Face_mask_detection/facemask_detection_result.gif" width=720></p>
+<br>
+
+### [Traffic signs detection with YOLOv4][12]
+- The YOLOv4 traffic sign detector was trained with darknet and deployed with OpenCV. This [article](https://towardsdatascience.com/yolov4-in-google-colab-train-your-custom-dataset-traffic-signs-with-ease-3243ca91c81d) demonstrates more details about the procedure used to train this detector.
+
+<p align="center"><img src="./YOLOv4_traffic_signs_detection/figures/yolov4_sign_detections.gif" width=720></p>
 <br>
 
 ### [Gun detection with YOLOv3][5]:
@@ -142,3 +149,4 @@ Below are some key points regarding this project:
 [9]:/Face_mask_detection
 [10]:/Image_captioning
 [11]:/Age_prediction
+[12]:/YOLOv4_traffic_signs_detection
